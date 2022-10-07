@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop 5 module 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+     <h1>Velden voor HTML formulieren</h1>
+     <form>
+        <fieldset>
+           <legend><h2>text velden</h2></legend>
+           <p><label for="voornaam">voornaam</label><input type="text" name="voornaam:"/></p>
+           <p><label for="achternaam">achternaam</label> <input type="text" name="achternaam:"/></p>
+           <p><label for="passwrod">wachtwoord</label><input type="password" name="pwd" />&nbsp;&nbsp;defineert een wachtwoord veld</p>
+        </fieldset>
+        
+    <fieldset>
+        <legend><h2>Radio buttons</h2></legend>
+        <p><input type="radio" name="geslacht" value="man"/>man</p>
+        <p><input type="radio" name="geslacht" value="vrouw"/>vrouw</p>
+        <p><input type="radio" name="geslacht" value="anders"/>anders</p>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Checkbox</h2></legend>
+        <p><input type="checkbox" name="vehicle" value="fiets"/>Ik heb een fiest</p>
+        <p><input type="checkbox" name="vehicle" value="auto"/>Ik heb een auto</p>
+        <p><input type="checkbox" name="vehicle" value="bus"/>Ik heb een bus</p>
+        </fieldset>
+    <fieldset>
+        <legend><h2>dropdownlist</h2></legend>
+        <p><select name="balletdanseressen">
+            <option value="martha graham">Martha Graham</option>
+            <option value="Carlotta Grisi">Carlotta Grisi</option>
+            <option value="agrippina vaganova">agrippina vaganova</option>
+            <option value="Natalie Portman">Natalie Portman</option>
+        </select></p>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Texterea</h2></legend>
+        <p><textarea rows"7" cols="25" name="opmerkngen"></textarea> </p>
+        <h2>submit knop</h2>
+        <p><input type="submit" value="Verzenden"></p>
+    </fieldset>
+    </form>
+    </div>
+   
+    
+</body>
+</html>
